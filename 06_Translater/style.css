@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #1897Bf;
+}
+
+.container {
+    width: 700px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.box {
+    border-radius: 5px;
+    border: 1px solid #7F8487;
+}
+
+.controls, .controls li, .icons, .icons i {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.controls .icons i {
+    width: 40px;
+    color: #7F8487;
+    font-size: 16px; /* iconun boyu degişir !*/
+    cursor: pointer;
+    justify-content: center; /* space-between'i ezdik */
+}
+
+.controls .icons {
+    width: 35%;
+}
+
+ul {
+    list-style: none;
+    padding: 12px 15px;
+}
+
+.box .text-controls {
+    display: flex;
+    border-top: 1px solid #7F8487;
+}
+
+.text-controls textarea {
+    height: 200px;
+    width: 50%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px 15px;
+    background: none;
+    resize: none;
+}
+
+.text-controls .to-text {
+    border-left: 1px solid #7F8487;
+    border-radius: 0;
+}
+
+button {
+    background-color: #555555;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 16px;
+    border: 2px solid #555;
+    cursor: pointer;
+    transition-duration: .4s;
+}
+button:hover {
+    background-color: #fff;
+    color: black;
+    border: 2px solid #555;
+}

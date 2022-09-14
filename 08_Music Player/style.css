@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    width: 400px;
+}
+
+
+#progress .times,
+.card-footer,
+.volume-container {   /* ,controls class'inida kaldırdık!*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.volume-container i{
+    margin-right: 5px;
+}
+
+li.playing {
+    background-color: #136eff;
+    color: #fff;
+}
+
+
+/* Bootstrap ile halledicez : Şuan kotu durumda :)  */
+/*#controls i{*/
+/*    font-size: 20px;*/
+/*    color: blueviolet;*/
+/*    margin-right: 20px;*/
+/*}*/
+
+/*#progress {*/
+/*    margin-bottom: 50px;*/
+/*}*/
+
+/*#progress-bar {*/
+/*    width: 100%;*/
+/*}*/
